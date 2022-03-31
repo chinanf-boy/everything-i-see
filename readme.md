@@ -5,7 +5,7 @@
 
 如何存，我会从，
 
-1. （what）这个工具/技巧是什么，
+1. （what）这个工具/技巧是什么，(留下收录时间)，
 2. （where） 它被我在哪个项目（指向有名的，且有长期维护的项目）看到，
 3. （how） 以及，使用方法。（当然，是不详尽的，仅给出片段解释与关键代码。
 
@@ -14,15 +14,17 @@
 
 - [目录](#目录)
   - [NPM package](#npm-package)
-    - [comlink](#comlink)
+    - [comlink （2022-4-1）](#comlink-2022-4-1)
       - [diff.ts](#diffts)
       - [diff.worker.ts](#diffworkerts)
+  - [One command](#one-command)
+    - [playwright（2022-4-1）](#playwright2022-4-1)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## NPM package
 
-### [comlink](https://github.com/GoogleChromeLabs/comlink)
+### [comlink](https://github.com/GoogleChromeLabs/comlink) （2022-4-1）
 
 > 工作线程的简化工具
 
@@ -86,3 +88,21 @@ expose(exports);
 ```
 
 </details>
+
+## One command
+
+### playwright（2022-4-1）
+
+如果这个自动化框架，存在于项目开发依赖中。
+因其使用 electron 作为其依赖，自然它需要下载资源，而这个资源在国内网络下载失败的可能相当大，而这里给出一串命令，替换底层的下载代码的环境变量。
+
+先
+
+```bash
+# Linux
+export ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/"
+# Windows
+set ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/"
+# 在进行
+yarn
+```
