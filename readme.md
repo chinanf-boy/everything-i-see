@@ -28,7 +28,7 @@
 
 示例项目：[antfu/vite-plugin-inspect](https://github.com/antfu/vite-plugin-inspect/tree/bc525c40ab700ff05185048c687430608c63759c)
 
-<detail>
+<details>
 
 - [DiffEditor.vue](https://github.com/antfu/vite-plugin-inspect/blob/bc525c40ab700ff05185048c687430608c63759c/src/client/components/DiffEditor.vue#L66)
 
@@ -85,4 +85,4 @@ export type Exports = typeof exports;
 expose(exports);
 ```
 
-</detail>
+</details>
