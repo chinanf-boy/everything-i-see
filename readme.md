@@ -1,5 +1,14 @@
 # 目录
 
+现如今的知识，或者编写技巧，更多来自，知与不知。并不是说问题不难，而是会有积极的，友好的人们，对其简化。将它变成一个库，一个工具，一个软件，更有可能是一段代码，一串命令，一点思维。
+而这个存档，是放我之后看到的，在源码/库层面的技巧与捷径。如果你问以前的，`(*^_^*)` 我已经忘了。所以，这个存档出现了。
+
+如何存，我会从，
+
+1. （what）这个工具/技巧是什么，
+2. （where） 它被我在哪个项目（指向有名的，且有长期维护的项目）看到，
+3. （how） 以及，使用方法。（当然，是不详尽的，仅给出片段解释与关键代码。
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -13,7 +22,7 @@
 
 ## NPM package
 
-### comlink
+### [comlink](https://github.com/GoogleChromeLabs/comlink)
 
 > 工作线程的简化工具
 
