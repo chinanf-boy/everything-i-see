@@ -17,8 +17,10 @@
     - [comlink （2022-4-1）](#comlink-2022-4-1)
       - [diff.ts](#diffts)
       - [diff.worker.ts](#diffworkerts)
-  - [One command](#one-command)
+  - [一串命令](#一串命令)
     - [playwright（2022-4-1）](#playwright2022-4-1)
+  - [一点思维](#一点思维)
+    - [Vue](#vue)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -89,7 +91,7 @@ expose(exports);
 
 </details>
 
-## One command
+## 一串命令
 
 ### playwright（2022-4-1）
 
@@ -106,3 +108,9 @@ set ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/"
 # 在进行
 yarn
 ```
+
+## 一点思维
+
+### Vue
+
+- [Vue 项目工程 -- 战斗思维与技巧](vue-project-thought.md)
